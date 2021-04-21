@@ -1,0 +1,57 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+.content{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-30%, -60%);
+    text-align: center;
+    width: 1350px;
+    text-align: center;
+    padding: 32px 32px;
+    padding-right: 30px;
+    padding-left: 30px;
+    background-color: transparent;
+    border-radius: 25px;
+}
+.card{
+    background-color:#0097A7;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    content: ' ';
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+
+}
+
+
+.productos{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -90%);
+    text-align: center;
+    width: 1350px;
+    text-align: center;
+    padding: 32px 32px;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius: 25px;
+}
+
+.menuForm{
+    
+    background-color:#1A237E;
+    
+    
+}
+
