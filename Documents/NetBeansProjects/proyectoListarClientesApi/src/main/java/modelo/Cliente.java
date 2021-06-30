@@ -6,8 +6,10 @@
 package modelo;
 
 
-import jakarta.persistence.Id;
+
 import lombok.Data;
+import lombok.EqualsAndHashCode;
+import lombok.ToString;
 
 
 /**
@@ -15,6 +17,8 @@ import lombok.Data;
  * @author Sergio_Mendez_G
  */
 @Data
+@EqualsAndHashCode(of ="id")
+@ToString(of ="id")
 public class Cliente {
 
    

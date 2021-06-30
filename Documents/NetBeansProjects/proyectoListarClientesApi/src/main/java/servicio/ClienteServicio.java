@@ -6,8 +6,8 @@
 package servicio;
 
 import jakarta.enterprise.context.RequestScoped;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.HashSet;
+import java.util.Set;
 import modelo.Cliente;
 
 /**
@@ -17,9 +17,9 @@ import modelo.Cliente;
 @RequestScoped
 public class ClienteServicio {
 
-    public static List<Cliente> clientesData = new ArrayList<>();
+    public static Set<Cliente> clientesData = new HashSet<>();
 
-    public List<Cliente> getClientes() {
+    public Set<Cliente> getClientes() {
 
         Cliente cliente1 = new Cliente(1, "WALMART-SA", " Operador de tiendas", "Guatemala zona 1", 10000);
         Cliente cliente2 = new Cliente(2, "Supermercado La Torre", " Operador de tiendas", "guatemala zona 6", 2000);
